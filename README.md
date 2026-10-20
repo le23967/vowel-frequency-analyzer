@@ -24,3 +24,7 @@ vowel-frequency-analyzer/
 │       └── entrypoint.sh             # Entrypoint shell script
 └── data.txt                          # Required input data
 ```
+
+## Vowel frequency results
+
+Each push to `main` adds a line below: `[username - vowel counts - timestamp]`.
