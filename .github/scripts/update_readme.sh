@@ -8,6 +8,9 @@ TIMESTAMP=$(date)
 # Update README
 echo -e "\n[$GITHUB_USER - $FREQ_RESULT - $TIMESTAMP]" >> README.md
 
+# Show the new README entry in the log
+tail -n 1 README.md
+
 # Configure Git to use GitHub Actions user and email
 git config --global user.name "github-actions"
 git config --global user.email "github-actions@users.noreply.github.com"
