@@ -3,3 +3,4 @@ On every push to the main branch, GitHub Actions builds a Docker image and runs 
 The container counts the vowels in this file and records the result in README.md,
 together with the contributor's GitHub username and a timestamp.
 This line was added to test the workflow.
+Testing automated vowel count on push to main.
